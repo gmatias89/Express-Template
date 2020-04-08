@@ -42,6 +42,6 @@ if (port == null || port == "") {
 }
 
 app.listen(port, function () {
-    console.log("Server running on port 3000");
+    console.log("Server running on port " + port);
 
 });
