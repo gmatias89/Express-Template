@@ -22,6 +22,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({
     extended: true
 }));
+app.use(bodyParser.json())
 
 //se setea la carpeta de recursos
 app.use(express.static("public"));
